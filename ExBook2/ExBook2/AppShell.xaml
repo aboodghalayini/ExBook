@@ -30,8 +30,10 @@
     </Shell.Resources>
 
     <TabBar>
-        <ShellContent Title="About" Icon="icon_about.png" Route="HomePage" ContentTemplate="{DataTemplate local:HomePage}" />
-        <ShellContent Title="Browse" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:WelcomePage}" />
+        <ShellContent Title="Moor Page"  ContentTemplate="{DataTemplate local:MoorPage}" />
+        <ShellContent Title="Notification Page"  ContentTemplate="{DataTemplate local:NotificationPage}" />
+        <ShellContent Title="Post Page"  ContentTemplate="{DataTemplate local:PostPage}" />
+        <ShellContent Title="Home Page"  ContentTemplate="{DataTemplate local:HomePage}" />
     </TabBar>
 
     <!--
