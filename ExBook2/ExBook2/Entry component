@@ -1,0 +1,9 @@
+ <StackLayout Orientation="Horizontal"  >
+
+                <Entry x:Name="entry1"     HorizontalOptions="CenterAndExpand" Placeholder="اسم الكاتب "  Margin="0,0,30,0"  PlaceholderColor="Gray" TextColor="Black" />
+                <Entry x:Name="entry2" Placeholder="اسم الكتاب"  PlaceholderColor="Gray" Margin="0,0,20,0" TextColor="Black"/>
+                 <Entry x:Name="entry3"  HorizontalOptions="CenterAndExpand"  Placeholder="الطبعة"  PlaceholderColor="Gray" Keyboard="Numeric" Margin="30,0,0,0" />
+            <Entry x:Name="entry5"  HorizontalOptions="CenterAndExpand" Placeholder="الصوره"  PlaceholderColor="Gray" />
+            <Entry x:Name="entry6" Placeholder="نبذه عن الكتاب" PlaceholderColor="Gray"  Margin="0,0,20,0"/>
+
+            </StackLayout>
