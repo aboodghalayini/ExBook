@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExBook2.Views.AddBookSellPage">
+    <StackLayout  BackgroundColor="#49426c">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" >
+            <Button Text="بيع"  Margin="30,0,0,0" BackgroundColor="#f1bf8c"/>
+            <Button Text="تبديل" BackgroundColor="#f1bf8c" />
+        </StackLayout>
+        <StackLayout>
+           <!-- <StackLayout Orientation="Horizontal"  HorizontalOptions="CenterAndExpand">-->
+            <StackLayout Orientation="Horizontal"  >
+
+                <Entry x:Name="entry1"     HorizontalOptions="CenterAndExpand" Placeholder="اسم الكاتب "  Margin="0,0,30,0"  PlaceholderColor="Gray" TextColor="Black" />
+                <Entry x:Name="entry2" Placeholder="اسم الكتاب"  PlaceholderColor="Gray" Margin="0,0,20,0" TextColor="Black"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" >
+                <Entry x:Name="entry3"  HorizontalOptions="CenterAndExpand"  Placeholder="الطبعة"  PlaceholderColor="Gray" Keyboard="Numeric" Margin="30,0,0,0" />
+
+                <Picker x:Name="college" Title="الكليات" WidthRequest= "150" TextColor="Gray" TitleColor="Gray" Margin="0,0,20,0">
+                    <Picker.Items>
+                        <x:String>كل الجامعه</x:String>
+                        <x:String>كليه العلوم</x:String>
+                        <x:String>الهندسه و تكنلوجيا المعلومات</x:String>
+                        <x:String>الاداب</x:String>
+                        <x:String>الشريعه</x:String>
+                        <x:String>كلية القانون</x:String>
+                        <x:String>الكلية الطب وعلوم الصحة</x:String>
+                        <x:String>الصيدله</x:String>
+                        <x:String>كلية الاقتصاد والعلوم الإجتماعية</x:String>
+                        <x:String>كلية الزراعة والطب البيطري</x:String>
+                        <x:String>كلية العلوم الإنسانية</x:String>
+                        <x:String>كلية العلوم التربوية وإعداد المعلمين</x:String>
+                        <x:String>كلية الفنون الجميلة</x:String>
+                    </Picker.Items>
+                </Picker>
+
+            </StackLayout>
+        </StackLayout>
+            <StackLayout Orientation="Horizontal" >
+            <Entry x:Name="entry5"  HorizontalOptions="CenterAndExpand" Placeholder="الصوره"  PlaceholderColor="Gray" />
+            <Entry x:Name="entry6" Placeholder="نبذه عن الكتاب" PlaceholderColor="Gray"  Margin="0,0,20,0"/>
+
+            </StackLayout>
+           
+       
+        <StackLayout>
+            <Button HorizontalOptions="Start" Text="طلب"  VerticalOptions="Center" Margin="50" BackgroundColor="#f1bf8c" />
+    </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
+

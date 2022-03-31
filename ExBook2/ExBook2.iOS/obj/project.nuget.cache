@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "OrUpDL7hHr3g5KV2tPfNtrLnh842u4n1/G8/RTyRrYzHjqNVD6VTGdGjb6DIrmg0ZX4v1glHdnrb7cj99lBqYA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\Ex-Book-Development\\ExBook2\\ExBook2.iOS\\ExBook2.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
