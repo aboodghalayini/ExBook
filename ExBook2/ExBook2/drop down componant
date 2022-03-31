@@ -1,0 +1,17 @@
+<Picker x:Name="college" Title="الكليات" WidthRequest= "150" TextColor="Gray" TitleColor="Gray" Margin="0,0,20,0">
+                    <Picker.Items>
+                        <x:String>كل الجامعه</x:String>
+                        <x:String>كليه العلوم</x:String>
+                        <x:String>الهندسه و تكنلوجيا المعلومات</x:String>
+                        <x:String>الاداب</x:String>
+                        <x:String>الشريعه</x:String>
+                        <x:String>كلية القانون</x:String>
+                        <x:String>الكلية الطب وعلوم الصحة</x:String>
+                        <x:String>الصيدله</x:String>
+                        <x:String>كلية الاقتصاد والعلوم الإجتماعية</x:String>
+                        <x:String>كلية الزراعة والطب البيطري</x:String>
+                        <x:String>كلية العلوم الإنسانية</x:String>
+                        <x:String>كلية العلوم التربوية وإعداد المعلمين</x:String>
+                        <x:String>كلية الفنون الجميلة</x:String>
+                    </Picker.Items>
+                </Picker>
