@@ -1,0 +1,7 @@
+<!-- in sell page and exchange page-->
+ <Button Text="بيع"  Margin="30,0,0,0" BackgroundColor="#f1bf8c"/>
+ <Button Text="تبديل" BackgroundColor="#f1bf8c" />
+ <Button HorizontalOptions="Start" Text="طلب"  VerticalOptions="Center" Margin="50" BackgroundColor="#f1bf8c" />
+
+ 
+ 
