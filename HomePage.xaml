@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExBook2.Views.HomePage">
+    <ContentPage.Content>        <Grid BackgroundColor="LightBlue" RowSpacing="10">            <Grid.RowDefinitions>                <RowDefinition Height="auto" />                <RowDefinition Height="auto" />                <RowDefinition Height="*" />            </Grid.RowDefinitions>            <Grid Grid.Row="0" BackgroundColor="LightBlue" Margin="5,10,5,0">                <Grid.ColumnDefinitions>                    <ColumnDefinition Width="*" />                    <ColumnDefinition Width="30"/>                </Grid.ColumnDefinitions>                <SearchBar Placeholder="Search" Grid.Column="0"/>
+                </Grid>
+             <Grid Grid.Row="3">                <ScrollView>                    <Grid>                        <Grid.RowDefinitions>                            <RowDefinition Height="350"/>                            <RowDefinition Height="350"/>                        </Grid.RowDefinitions>                        <Grid Grid.Row="0" Margin="20,0,20,0" BackgroundColor="Wheat">                            <Grid.RowDefinitions>                                <RowDefinition Height="auto"/>                                <RowDefinition Height="auto"/>                            </Grid.RowDefinitions>
+                             <DataTemplate>                                        <Grid>                                            <Grid.RowDefinitions>                                                <RowDefinition Height="auto"/>                                                <RowDefinition Height="100" />                                            </Grid.RowDefinitions>                                            <Frame Grid.Row="0" HasShadow="True"                                                BorderColor="DarkGray"                                                CornerRadius="5"                                                HeightRequest="150"                                                VerticalOptions="CenterAndExpand">
+                                                
+                                                <ImageButton Source="https://www.pngall.com/wp-content/uploads/2016/03/Book-PNG-2.png"                                                           Aspect="AspectFill"                                                           HeightRequest="150"                                                           WidthRequest="200"                                                           HorizontalOptions="Center" />                                            </Frame>
+                                            <Label x:Name="TitleLabel" Text="{Binding Title}" Grid.Column="0" Grid.Row="0" FontSize="20" FontAttributes="Bold"/>                                                <Label x:Name="PriceLabel" Text="{Binding Price}" Grid.Column="3" Grid.Row="0" FontSize="20" FontAttributes="Bold"/>
+                                            </Grid>                                    </DataTemplate>                                </CarouselView.ItemTemplate>                            </CarouselView>                        </Grid>
+                </CarouselView.ItemTemplate>                            </CarouselView>                        </Grid>                    </Grid>                </ScrollView>            </Grid>        </Grid>    </ContentPage.Content></ContentPage>
+
+
+
+
+
+
